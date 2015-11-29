@@ -111,7 +111,7 @@ public class Tradycyjne {
     }  
     public static void savekeys() throws IOException
     {
-    	file = new File("D:\\workspace\\Lista4RsaZad1\\src\\public.key");
+    	file = new File("C:\\Users\\Grimm\\git\\lista_4\\Lista4RsaZad1\\src\\public.key");
     	out = new FileOutputStream(file);
     	
     	BigInteger tE = e;
@@ -122,7 +122,7 @@ public class Tradycyjne {
     	out.flush();
     	out.close();
     	
-    	file = new File("D:\\workspace\\Lista4RsaZad1\\src\\private.key");
+    	file = new File("C:\\Users\\Grimm\\git\\lista_4\\Lista4RsaZad1\\src\\private.key");
     	out = new FileOutputStream(file);
     	BigInteger tD = d;
     	temp = "d:"+tD+"N:"+tN;
